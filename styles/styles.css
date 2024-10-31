@@ -342,6 +342,101 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.navigation {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.above h1 {
+  font-family: "Marck Script", cursive;
+  font-weight: lighter;
+  color: #ffa500;
+  font-size: 50px;
+  padding-top: 50px;
+    margin: .5px;
+}
+.above h2 {
+  font-family: "Montserrat", san-serif;
+  margin: .05px;
+  text-transform: uppercase;
+  font-size: 70px;
+}
+
+.above p {
+  font-family: "Dosis", san-serif;
+  padding-left: 300px;
+      padding-right: 300px;
+      display: flex;
+      text-align: center;
+
+
+}
+
+.above p2 {
+  font-family: "Montserrat", san-serif;
+  color: #ffa500;
+  margin: 1px;
+  text-decoration: underline;
+}
+
+.above {
+  display: flex;
+}
+.above article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*# sourceMappingURL=styles.css.map */
+
+.story {
+  margin-right: 100px;
+  padding-top: 60px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main_btn {
   background-color: black;
   color: white;
@@ -367,29 +462,3 @@ nav a:hover {
 .sec_btn:hover {
   background-color: gray;
 }
-
-.above h1 {
-  font-family: "Marck Script", cursive;
-}
-.above h2 {
-  font-family: "Montserrat", san-serif;
-}
-.above p {
-  font-family: "Dosis", san-serif;
-}
-.above p2 {
-  font-family: "Montserrat", san-serif;
-}
-
-.above {
-  display: flex;
-}
-.above article {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.above p {
-  text-align: center;
-}/*# sourceMappingURL=styles.css.map */

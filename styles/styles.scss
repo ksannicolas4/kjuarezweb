@@ -12,18 +12,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
   div { font-family: typography.$title;
       font-weight: bolder;
       align-items: center;
-      text-decoration: underline;
     }
 
   li {display: inline-block;
     background-color: black;
     color: white;
     } 
-ul {
+
+  ul {
     display: flex;
     gap: 15px;
 }
@@ -31,13 +32,10 @@ ul {
   color: white;
   text-decoration: none;
 }
-    
-}
 
 nav a:hover{
 	text-decoration: underline;
 }
-
 
 
 
@@ -77,9 +75,6 @@ nav a:hover{
     align-items: center;}
     p {text-align: center;}
 }
-
-
-
 
 
 
