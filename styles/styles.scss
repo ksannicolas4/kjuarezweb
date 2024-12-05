@@ -20,7 +20,7 @@
     }
 
   li {display: inline-block;
-    background-color: black;
+    background-color: #414141;
     color: white;
     } 
 
@@ -35,27 +35,6 @@
 
 nav a:hover{
 	text-decoration: underline;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.main_btn {
-    @include mixins.button ();
-    font-family: typography.$primary-font;
-}
-
-.sec_btn {
-    @include mixins.button ();
-    font-family: typography.$primary-font;
 }
 
 
@@ -77,6 +56,16 @@ nav a:hover{
 }
 
 
+.above {
+  p2 {font-weight: 400;}
+}
+
+.footer {
+  .below { font-family: typography.$title;
+    font-weight: bolder;
+    align-items: center;
+  }
+}
 
 
 
